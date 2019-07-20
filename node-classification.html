@@ -11,7 +11,7 @@
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1563510192" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1563614231" title="wsite-theme-css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
@@ -103,7 +103,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	
 	function initFlyouts(){
 		initPublishedFlyoutMenus(
-			[{"id":"650743784182116613","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"182794993826716309","title":"Documentation","url":"documentation.html","target":"","nav_menu":false,"nonclickable":false},{"id":"124102964934034712","title":"Leaderboard","url":"leaderboard.html","target":"","nav_menu":false,"nonclickable":false},{"id":"108702896187410415","title":"Methods","url":"methods.html","target":"","nav_menu":false,"nonclickable":false},{"id":"251112407971364293","title":"Datasets","url":"datasets.html","target":"","nav_menu":false,"nonclickable":false},{"id":"887086769586831573","title":"FAQ","url":"faq.html","target":"","nav_menu":false,"nonclickable":false}],
+			[{"id":"650743784182116613","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"182794993826716309","title":"Documentation","url":"documentation.html","target":"","nav_menu":false,"nonclickable":false},{"id":"124102964934034712","title":"Leaderboard","url":"leaderboard.html","target":"","nav_menu":false,"nonclickable":false},{"id":"300380532107256026","title":"Methods","url":"methods.html","target":"","nav_menu":false,"nonclickable":false},{"id":"446361153551888776","title":"Datasets","url":"datasets.html","target":"","nav_menu":false,"nonclickable":false},{"id":"570962386248598497","title":"FAQ","url":"faq.html","target":"","nav_menu":false,"nonclickable":false}],
 			"147885511245797514",
 			'',
 			'active',
@@ -117,7 +117,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		
 		
 	</head>
-	<body class="no-header-page  wsite-page-node-classification  sticky-nav-on full-width-on header-scroll-animate-off  wsite-theme-light"><div class="wrapper">
+	<body class="no-header-page  wsite-page-node-classification  sticky-nav-on full-width-on header-scroll-animate-on  wsite-theme-light"><div class="wrapper">
     <div class="unite-header">
       <div class="nav-wrap">
         <div class="container">
@@ -189,11 +189,11 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	class="wsite-menu-subitem-wrap "
 	>
 	<a
-				href="heterogeneous-link-prediction.html"
+				href="multiplex-heterogeneous-link-prediction.html"
 		class="wsite-menu-subitem"
 		>
 		<span class="wsite-menu-title">
-			Heterogeneous Link Prediction
+			Multiplex Heterogeneous Link Prediction
 		</span>
 	</a>
 	
@@ -203,7 +203,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 </div>
 
 		</li>
-		<li id="pg108702896187410415" class="wsite-menu-item-wrap">
+		<li id="pg300380532107256026" class="wsite-menu-item-wrap">
 			<a
 						href="methods.html"
 				class="wsite-menu-item"
@@ -212,7 +212,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			</a>
 			
 		</li>
-		<li id="pg251112407971364293" class="wsite-menu-item-wrap">
+		<li id="pg446361153551888776" class="wsite-menu-item-wrap">
 			<a
 						href="datasets.html"
 				class="wsite-menu-item"
@@ -221,7 +221,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			</a>
 			
 		</li>
-		<li id="pg887086769586831573" class="wsite-menu-item-wrap">
+		<li id="pg570962386248598497" class="wsite-menu-item-wrap">
 			<a
 						href="faq.html"
 				class="wsite-menu-item"
@@ -248,7 +248,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:19.21032649962%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:19.02419169159%; padding:0 15px;">
 					
 						
 
@@ -256,13 +256,13 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:59.813238988522%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:61.514231190809%; padding:0 15px;">
 					
 						
 
 <h2 class="wsite-content-title"><font size="5">Multi-label Node Classification</font></h2>
 
-<div class="paragraph">Here is an example leaderboard, which built from unsupervised multi-label node classification setting. we run all algorithms on several real-world datasets and report the sorted experimental results (Micro-F1 score with 90% labels as training data in L2 normalization logistic regression).<br /></div>
+<div class="paragraph">This leaderboard reports unsupervised multi-label node classification setting. we run all algorithms on several real-world datasets and report the sorted experimental results (Micro-F1 score with 90% labels as training data in L2 normalization logistic regression).</div>
 
 <div><div id="678788403557938249" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><style>
 .iframe-container {
@@ -293,7 +293,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <h2 class="wsite-content-title"><strong><font size="5">Node Classification with Attributes</font></strong></h2>
 
-<div class="paragraph"><font color="#2a2a2a" size="4">Transductive</font><br />Here is an example leaderboard built from supervised&nbsp; node classification setting including several popular graph neural network methods.<br /></div>
+<div class="paragraph"><font color="#2a2a2a" size="4">Transductive</font><br />This leaderboard reports the supervised node classification transductive setting including several popular graph neural network methods.</div>
 
 <div><div id="382174624200892316" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><style>
 .iframe-container {
@@ -322,7 +322,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:20.976434511858%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:19.461577117601%; padding:0 15px;">
 					
 						
 
@@ -345,7 +345,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
     </div>
 
-    <div class="footer-wrap" style="visibility:hidden">
+    <div class="footer-wrap">
       <div class="container">
         <div class="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
       </div>
@@ -412,11 +412,11 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	class="wsite-menu-subitem-wrap "
 	>
 	<a
-				href="heterogeneous-link-prediction.html"
+				href="multiplex-heterogeneous-link-prediction.html"
 		class="wsite-menu-subitem"
 		>
 		<span class="wsite-menu-title">
-			Heterogeneous Link Prediction
+			Multiplex Heterogeneous Link Prediction
 		</span>
 	</a>
 	
@@ -426,7 +426,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 </div>
 
     		</li>
-    		<li id="pg108702896187410415" class="wsite-menu-item-wrap">
+    		<li id="pg300380532107256026" class="wsite-menu-item-wrap">
     			<a
     						href="methods.html"
     				class="wsite-menu-item"
@@ -435,7 +435,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
     			</a>
     			
     		</li>
-    		<li id="pg251112407971364293" class="wsite-menu-item-wrap">
+    		<li id="pg446361153551888776" class="wsite-menu-item-wrap">
     			<a
     						href="datasets.html"
     				class="wsite-menu-item"
@@ -444,7 +444,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
     			</a>
     			
     		</li>
-    		<li id="pg887086769586831573" class="wsite-menu-item-wrap">
+    		<li id="pg570962386248598497" class="wsite-menu-item-wrap">
     			<a
     						href="faq.html"
     				class="wsite-menu-item"
